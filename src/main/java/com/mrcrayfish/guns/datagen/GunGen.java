@@ -247,5 +247,72 @@ public class GunGen extends GunProvider
                 .setBarrel(0.5F, 0.0, 3.6506, -3.8)
                 .setStock(1.0F, 0.0, 3.6506, 8.4)
                 .build());
+
+        this.addGun(new ResourceLocation(Reference.MOD_ID, "flint_lock"), Gun.Builder.create()
+                .setFireRate(1)
+                .setGripType(GripType.ONE_HANDED)
+                .setMaxAmmo(1)
+                .setReloadAmount(1)
+                .setRecoilAngle(10.0F)
+                .setRecoilAdsReduction(0.5F)
+                .setAlwaysSpread(true)
+                .setSpread(1.0F)
+                .setAmmo(ModItems.BASIC_BULLET.get())
+                .setDamage(9.0F)
+                .setProjectileSize(0.2F)
+                .setProjectileSpeed(10.0)
+                .setProjectileLife(25)
+                .setFireSound(ModSounds.ITEM_PISTOL_FIRE.get())
+                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+                .setCockSound(ModSounds.ITEM_PISTOL_COCK.get())
+                .setSilencedFireSound(ModSounds.ITEM_PISTOL_SILENCED_FIRE.get())
+                .setEnchantedFireSound(ModSounds.ITEM_PISTOL_ENCHANTED_FIRE.get())
+                .setMuzzleFlash(0.5, 0.0, 3.3, 2.64)
+                .setZoom(0.7F, 0.0, 4.5, -1.0)
+                .setScope(0.75F, 0.0, 3.7, 6.0)
+                .setBarrel(0.5F, 0.0, 3.3, 2.65)
+                .setStock(1.0F, 0.0, 3.3, 7.95)
+                .build());
+
+        this.addPistol("four_round_pistol");
+        this.addPistol("big_bolt_action_rifile");
+        this.addPistol("bolt_action_rifile");
+        this.addPistol("cowboy_gun");
+        this.addPistol("double_barrel_shotgun");
+        this.addPistol("dragon_barrel_shotgun");
+        this.addPistol("flamethrower");
+        this.addPistol("healing_needles");
+        this.addPistol("healthooka");
+        this.addPistol("mag_gun");
+        this.addPistol("sleeper_zap_gun");
+        this.addPistol("the_hand_cannon");
+    }
+
+    public void addPistol(String name) {
+        this.addGun(new ResourceLocation(Reference.MOD_ID, name), Gun.Builder.create()
+                .setFireRate(4)
+                .setGripType(GripType.ONE_HANDED)
+                .setMaxAmmo(16)
+                .setReloadAmount(4)
+                .setRecoilAngle(10.0F)
+                .setRecoilAdsReduction(0.5F)
+                .setAlwaysSpread(true)
+                .setSpread(1.0F)
+                .setAmmo(ModItems.BASIC_BULLET.get())
+                .setDamage(9.0F)
+                .setProjectileSize(0.2F)
+                .setProjectileSpeed(10.0)
+                .setProjectileLife(25)
+                .setFireSound(ModSounds.ITEM_PISTOL_FIRE.get())
+                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+                .setCockSound(ModSounds.ITEM_PISTOL_COCK.get())
+                .setSilencedFireSound(ModSounds.ITEM_PISTOL_SILENCED_FIRE.get())
+                .setEnchantedFireSound(ModSounds.ITEM_PISTOL_ENCHANTED_FIRE.get())
+                .setMuzzleFlash(0.5, 0.0, 3.3, 2.64)
+                .setZoom(0.7F, 0.0, 4.5, -1.0)
+                .setScope(0.75F, 0.0, 3.7, 6.0)
+                .setBarrel(0.5F, 0.0, 3.3, 2.65)
+                .setStock(1.0F, 0.0, 3.3, 7.95)
+                .build());
     }
 }

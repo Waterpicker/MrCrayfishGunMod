@@ -21,7 +21,20 @@ public enum SpecialModels
     MINI_GUN_BASE("mini_gun_base"),
     MINI_GUN_BARRELS("mini_gun_barrels"),
     GRENADE_LAUNCHER_BASE("grenade_launcher_base"),
-    GRENADE_LAUNCHER_CYLINDER("grenade_launcher_cylinder");
+    GRENADE_LAUNCHER_CYLINDER("grenade_launcher_cylinder"),
+    FLINT_LOCK("gun/flint_lock"),
+    FOUR_ROUND_PISTOL("gun/four_round_pistol"),
+    BIG_BOLT_ACTION_RIFILE("gun/big_bolt_action_rifile"),
+    BOLT_ACTION_RIFILE("gun/bolt_action_rifile"),
+    COWBOY_GUN("gun/cowboy_gun"),
+    DOUBLE_BARREL_SHOTGUN("gun/double_barrel_shotgun"),
+    DRAGON_BARREL_SHOTGUN("gun/dragon_barrel_shotgun"),
+    FLAMETHROWER("gun/flamethrower"),
+    HEALING_NEEDLES("gun/healing_needles"),
+    HEALTHOOKA("gun/healthooka"),
+    MAG_GUN("gun/mag_gun"),
+    SLEEPER_ZAP_GUN("gun/sleeper_zap_gun"),
+    THE_HAND_CANNON("gun/the_hand_cannon");
 
     /**
      * The location of an item model in the [MOD_ID]/models/special/[NAME] folder

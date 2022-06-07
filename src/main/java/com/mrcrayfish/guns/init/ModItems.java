@@ -33,6 +33,20 @@ public class ModItems
     public static final RegistryObject<GunItem> ASSAULT_RIFLE = REGISTER.register("assault_rifle", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
     public static final RegistryObject<Item> MACHINE_PISTOL = REGISTER.register("machine_pistol", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
     public static final RegistryObject<Item> HEAVY_RIFLE = REGISTER.register("heavy_rifle", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> FLINT_LOCK = REGISTER.register("flint_lock", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> FOUR_ROUND_PISTOL = REGISTER.register("four_round_pistol", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> BIG_BOLT_ACTION_RIFILE = REGISTER.register("big_bolt_action_rifile", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> BOLT_ACTION_RIFILE = REGISTER.register("bolt_action_rifile", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> COWBOY_GUN = REGISTER.register("cowboy_gun", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> DOUBLE_BARREL_SHOTGUN = REGISTER.register("double_barrel_shotgun", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> DRAGON_BARREL_SHOTGUN = REGISTER.register("dragon_barrel_shotgun", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> FLAMETHOWER = REGISTER.register("flamethrower", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> HEALING_NEEDLES = REGISTER.register("healing_needles", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> HEALTHOOKA = REGISTER.register("healthooka", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> MAG_GUN = REGISTER.register("mag_gun", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> SLEEPER_ZAP_GUN = REGISTER.register("sleeper_zap_gun", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+    public static final RegistryObject<GunItem> THE_HAND_CANNON = REGISTER.register("the_hand_cannon", () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
+
 
     public static final RegistryObject<Item> BASIC_BULLET = REGISTER.register("basic_bullet", () -> new AmmoItem(new Item.Properties().tab(GunMod.GROUP)));
     public static final RegistryObject<Item> ADVANCED_AMMO = REGISTER.register("advanced_bullet", () -> new AmmoItem(new Item.Properties().tab(GunMod.GROUP)));

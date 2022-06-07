@@ -18,7 +18,7 @@ version = "1.2.5-1.16.5"
 group = "com.mrcrayfish"
 archivesBaseName = "gun-mod"
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+java.toolchain.languageVersion = JavaLanguageVersion.of(16)
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
